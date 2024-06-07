@@ -16,7 +16,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/svg+xml"  href="/favicon.svg" />
+        <meta name="theme-color" content="#141414" />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent"
+        />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </head>
       <body>{children}</body>
     </html>
