@@ -3,7 +3,7 @@ import { FaRegEnvelope, FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "re
 const hrefIconObj = {
     "mailto:arais.jude@gmail.com": FaRegEnvelope,
     "https://linkedin.com/in/heyajudee/": FaLinkedin,
-    "https://github.com/heyajudee": FaGithub,
+    "https://github.com/arisedevs/": FaGithub,
     "https://www.instagram.com/heyajudee/": FaInstagram,
     "https://facebook.com/heyajudee/": FaFacebook,
   }
