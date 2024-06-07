@@ -8,10 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "baseBackground": "#0A0D0F",
+        "ivory": "#FFFFF0",
+        "baseFont": "#969696",
+        "main": "#005B41",
+        "main-light": "rgb(0, 91, 65, .3)",
+        "secondary": "#008170",
+        "secondary-light": "#00b199",
+        "accent": "#232D3F",
+      },
+      fontFamily: {
+        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
       },
     },
   },
