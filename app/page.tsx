@@ -2,6 +2,7 @@ import Main from "./sections/MainSection"
 import About from "./sections/About"
 import Technologies from "./sections/Technologies"
 import Experience from "./sections/Experience"
+import Projects from "./sections/Projects"
 import Footer from "./sections/Footer"
 import BackgroundImage from "./components/BackgroundImage"
 import ParticlesComponent from "./components/ParticlesComponent"
@@ -15,6 +16,7 @@ export default function Home() {
           <About />
           <Technologies />
           <Experience />
+          <Projects />
           <Footer />
         </div>
       </div>

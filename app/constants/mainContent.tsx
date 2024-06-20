@@ -15,6 +15,7 @@ export const sectionHeader = {
   about: "About",
   technologies: "Technologies",
   experience: "Experience",
+  projects: "Projects",
 }
 
 export default mainContent;
