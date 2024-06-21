@@ -6,7 +6,7 @@ const projectList = [
         projectDescription: "Arise Weather App is your comprehensive weather companion, offering real-time updates and forecasts with precision and style. Stay informed with current temperature, time, day, and detailed weather conditions including dew point, humidity, sunrise and sunset times, UV index, visibility, and wind status. Plan ahead with a 5-day forecast for any location worldwide. Easily switch between Celsius and Fahrenheit temperature scales and customize your experience with a choice of light or dark theme. Whether you're at home or traveling, Arise Weather App keeps you prepared for whatever the skies may bring.",
         imgPath: "/images/weather-app-img.png",
         projectGithubLink: "https://github.com/arisedevs/arise-weather-app/",
-        projectLink: "https://arise-weather-app.vercel.app/",
+        projectLink: "https://ariseweather.vercel.app/",
         projectStacks: [
             "React.js", "Typescript", "Express", "DaisyUI", "Open Weather API", "HERE API"
         ]
