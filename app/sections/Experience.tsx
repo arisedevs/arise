@@ -2,7 +2,7 @@ import { sectionHeader } from "../constants/mainContent";
 import Experiences from "../components/Experiences";
 import experienceList from "../constants/experienceList";
 import { PiArrowRightFill } from "react-icons/pi";
-import OpenCvButton from "../components/OpenCvButton";
+import OpenResumeButton from "../components/OpenResumeButton";
 
 function Experience() {
 
@@ -17,7 +17,7 @@ function Experience() {
 
       <div className="group inline-flex items-center cursor-pointer">
         <div className="p-1">
-          <OpenCvButton />
+          <OpenResumeButton />
           <hr className="w-0 transition-all duration-300 ease-in-out group-hover:w-full border-secondary" />
         </div>
         <PiArrowRightFill fill="#FFFFF0" className="ml-1 transition-all duration-300 ease-in-out group-hover:ml-4"/>

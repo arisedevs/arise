@@ -27,7 +27,7 @@ function ProjectCard(props: ProjectCardProps) {
 
                         <ul>
                             {projectStacks.map((stack, index) => (
-                                <WebStacks key={index} stack={stack} paddingY={1} textColor="text-ivory" fontSize="text-xs" />
+                                <WebStacks key={index} stack={stack} padding="px-2 py-1" textColor="text-ivory" fontSize="text-[11px]" />
                             ))}
                             
 

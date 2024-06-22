@@ -13,7 +13,7 @@ function Technologies() {
       </h1>
       <ul className="flex flex-wrap justify-start items-center">
         {Object.entries(stacksIconObj).map(([stack, icon]) => (
-          <WebStacks key={stack} iconComponent={icon} stack={stack} />
+          <WebStacks key={stack} iconComponent={icon} stack={stack} padding="px-4 py-3" />
         ))}
       </ul>
     </section>

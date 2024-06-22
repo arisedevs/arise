@@ -3,20 +3,20 @@ import { IconType } from "react-icons";
 type WebStacksProps = {
     iconComponent?: IconType,
     stack: string,
-    paddingX?: number,
-    paddingY?: number,
+    padding: string,
     textColor?: "text-ivory" | "text-baseFont",
-    fontSize?: "text-sm" | "text-xs",
+    fontSize?: string,
 }
 
 function WebStacks(props: WebStacksProps) {
-    const { iconComponent: Icon, stack, paddingX, paddingY, textColor, fontSize} = props;
+    const { iconComponent: Icon, stack, padding, textColor, fontSize} = props;
 
-    const containerClassName = `inline-flex items-center space-x-2 rounded-full border border-secondary bg-main mr-3 mb-3 px-3 py-2`;
+    const containerClassName = `inline-flex items-center space-x-2 rounded-2xl border border-secondary bg-main mr-3 mb-3`;
     const textClassName = `${fontSize || "text-sm"} ${textColor || 'text-ivory'}`;
+    const paddingXY = `${padding}`;
 
     return (
-        <li className={`${containerClassName} px-${paddingX || 3} py-${paddingY || 2}`}>
+        <li className={`${containerClassName} ${paddingXY}`}>
             {Icon && <Icon fill="#FFFFF0" />}
             <p className={textClassName}>{stack}</p>
         </li>
