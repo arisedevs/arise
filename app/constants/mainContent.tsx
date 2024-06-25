@@ -12,7 +12,7 @@ const mainContent = {
 };
 
 export const sectionHeader = {
-  about: "About Me",
+  about: "About",
   technologies: "Technologies",
   experience: "Experience",
   projects: "Projects",
