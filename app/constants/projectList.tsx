@@ -2,7 +2,7 @@
 
 const projectList = [
   {
-    projectTitle: "Arise Weather App",
+    projectTitle: "Weather App",
     projectDescription:
       "A comprehensive weather app providing real-time updates and forecasts. Features include current temperature, time, day, and detailed weather conditions such as dew point, humidity, UV index, visibility, wind status, and sunrise/sunset times. Offers a 5-day forecast for any location worldwide, with options to switch between Celsius and Fahrenheit and toggle light/dark themes. Stay prepared, whether at home or on the go.",
     imgPath: "/images/weather-app-img.png",
@@ -13,9 +13,19 @@ const projectList = [
       "Typescript",
       "Express",
       "DaisyUI",
+      "Context API",
       "Open Weather API",
       "HERE API",
     ],
+  },
+  {
+    projectTitle: "Newsletter App",
+    projectDescription:
+      "The Newsletter App is a straightforward and efficient solution for collecting and managing newsletter subscriptions integrate with Mailchimp.",
+    imgPath: "/images/newsletter-app-img.png",
+    projectGithubLink: "https://github.com/arisedevs/arise-newsletter-app/",
+    projectLink: "https://https://arisenewsletter.vercel.app/",
+    projectStacks: ["React.js", "Bootstrap", "Typescript", "Mailchimp API"],
   },
   {
     projectTitle: "Arise Portfolio",
