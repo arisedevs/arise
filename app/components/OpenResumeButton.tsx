@@ -5,7 +5,7 @@ import React from 'react'
 function OpenResumeButton() {
 
     const openCv = () => {
-        const CV = '/Resume.pdf'
+        const CV = '/CV.pdf'
         window.open(CV, '_blank');
     
       }
