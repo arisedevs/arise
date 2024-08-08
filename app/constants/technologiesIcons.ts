@@ -1,4 +1,4 @@
-import { SiTailwindcss, SiReact, SiDaisyui, SiTypescript, SiNodedotjs, SiExpress, SiPostgresql, SiGithub, SiGit, SiVercel} from "react-icons/si"
+import { SiTailwindcss, SiReact, SiDaisyui, SiTypescript, SiNodedotjs, SiExpress, SiPostgresql, SiGithub, SiGit, SiVercel, SiMongodb} from "react-icons/si"
 import { PiBracketsCurly } from "react-icons/pi";
 import { RiNextjsFill } from "react-icons/ri";
 
@@ -12,6 +12,7 @@ const stacksIconObj = {
     "Express": SiExpress,
     "REST API": PiBracketsCurly,
     "PostgreSQL": SiPostgresql,
+    "MongoDB": SiMongodb,
     "Github": SiGithub,
     "Git": SiGit,
     "Vercel": SiVercel,
