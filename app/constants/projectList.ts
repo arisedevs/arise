@@ -24,7 +24,7 @@ const projectList = [
       "The Newsletter App is a straightforward and efficient solution for collecting and managing newsletter subscriptions integrate with Mailchimp.",
     imgPath: "/images/newsletter-app-img.png",
     projectGithubLink: "https://github.com/arisedevs/arise-newsletter-app/",
-    projectLink: "https://https://arisenewsletter.vercel.app/",
+    projectLink: "https://arisenewsletter.vercel.app/",
     projectStacks: ["React.js", "Bootstrap", "Typescript", "Mailchimp API"],
   },
   {
