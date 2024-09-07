@@ -3,10 +3,8 @@ const mainContent = {
   title: "Frontend Developer",
   phrase:
     "I develop dynamic and responsive websites utilizing modern technologies. Let's bring your digital vision to life with intuitive design and seamless functionality.",
-  about: `I am a Workforce Specialist transitioning into Software Engineering, with a focus on Frontend Development. In my current role, I've developed strong analytical skills and a keen attention to detail, which I aim to leverage in my new career path.\n
-My journey into the world of web development began with a curiosity to understand how the digital landscape works. Since then, I've immersed myself in the art and science of creating engaging online experiences.
-Though I am new to this career path, I am committed to continuous learning and eager to adopt new technologies.\n
-My professional background has equipped me with strong work ethic and the ability to quickly adapt to new challenges, ensuring that I can deliver high-quality results.`,
+  about: `Jude is a dynamic Virtual Assistant and Frontend Developer with a strong foundation in workforce management, website content management, and digital marketing. He excels in creating modern web applications using cutting-edge technologies such as React, TypeScript, and Tailwind CSS, while also optimizing team schedules and improving operational efficiency. Jude is highly skilled in designing marketing materials, managing WordPress sites, and executing impactful email campaigns.\n
+His expertise extends to backend operations, where he effectively utilizes tools like Node.js, Express, REST APIs, and PostgreSQL. Jude also has a solid understanding of MongoDB, Git, and Vercel, making him versatile across the development stack. His analytical mindset, keen problem-solving abilities, and meticulous attention to detail make him an invaluable asset in fast-paced environments, whether overseeing workforce operations or crafting engaging web content. Jude is committed to driving innovation and consistently delivering exceptional results in every project he undertakes.`,
 };
 
 export const sectionHeader = {
